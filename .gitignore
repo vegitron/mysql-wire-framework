@@ -33,6 +33,7 @@ var/
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+pip-selfcheck.json
 
 # Unit test / coverage reports
 htmlcov/
@@ -87,3 +88,17 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# virtualenv
+/bin
+/include
+/local
+/src
+
+# vim
+*.swp
+
+# django stuff
+/manage.py
+/project
+
